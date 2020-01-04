@@ -9,7 +9,7 @@ public class PaintPreviewDriver {
     public static void main(String[] args){
         HomeFrame base = new HomeFrame();
         base.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        base.setSize(300, 800);
+        base.setSize(1000, 1000);
         base.setVisible(true);
         base.transitionToHome();
     }
