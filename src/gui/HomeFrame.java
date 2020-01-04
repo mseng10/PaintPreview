@@ -11,11 +11,20 @@ public class HomeFrame extends JFrame {
         setLayout(new FlowLayout());
         currPanel.setAlignmentX(Component.CENTER_ALIGNMENT);
         add(currPanel);
+    }
+
+    public void transitionToHome(){
         try{
             TimeUnit.SECONDS.sleep(3);
         }
         catch(InterruptedException e){
             System.out.println("Broken");
         }
+        Container contain = getContentPane();
+        contain.removeAll();
+        currPanel = new HomePanel();
+        contain.add(currPanel);
+        contain.validate();
+        contain.repaint();
     }
 }

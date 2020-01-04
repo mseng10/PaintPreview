@@ -11,5 +11,6 @@ public class PaintPreviewDriver {
         base.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         base.setSize(300, 800);
         base.setVisible(true);
+        base.transitionToHome();
     }
 }
