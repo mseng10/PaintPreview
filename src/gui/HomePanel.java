@@ -21,6 +21,5 @@ public class HomePanel extends JPanel {
         catch (IOException poop){
             System.out.println("Error loading image you dumb-ass");
         }
-
     }
 }

@@ -23,11 +23,11 @@ public class HomeFrame extends JFrame {
         catch(InterruptedException e){
             System.out.println("Broken");
         }
-//        Container contain = getContentPane();
-//        contain.removeAll();
-//        currPanel = new HomePanel();
-//        contain.add(currPanel);
-//        contain.validate();
-//        contain.repaint();
+        Container contain = getContentPane();
+        contain.removeAll();
+        currPanel = new HomePanel();
+        contain.add(currPanel);
+        contain.validate();
+        contain.repaint();
     }
 }

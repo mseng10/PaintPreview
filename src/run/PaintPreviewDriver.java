@@ -13,6 +13,6 @@ public class PaintPreviewDriver {
         base.setSize(1000, 1000);
         base.setVisible(true);
         base.setBackground(Color.red);
-        //base.transitionToHome();
+        base.transitionToHome();
     }
 }
