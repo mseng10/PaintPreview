@@ -9,6 +9,8 @@ public class GreetingPanel extends JPanel {
     public GreetingPanel(){
         greeting = new JLabel();
         greeting.setText("Sup");
+        setAlignmentX(Component.CENTER_ALIGNMENT);
+        setSize(500,500);
         add(greeting);
         this.setBackground(Color.MAGENTA);
 

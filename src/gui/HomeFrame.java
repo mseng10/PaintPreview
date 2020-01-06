@@ -10,9 +10,6 @@ public class HomeFrame extends JFrame {
         currPanel = new GreetingPanel();
         setLayout(new FlowLayout());
         getContentPane().setBackground(Color.red);
-        currPanel.setAlignmentX(Component.CENTER_ALIGNMENT);
-        currPanel.setSize(500,500);
-        currPanel.setBackground(Color.MAGENTA);
         add(currPanel);
     }
 
