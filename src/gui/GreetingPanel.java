@@ -1,5 +1,6 @@
 package gui;
 import javax.swing.*;
+import java.awt.*;
 
 public class GreetingPanel extends JPanel {
 
@@ -7,7 +8,9 @@ public class GreetingPanel extends JPanel {
 
     public GreetingPanel(){
         greeting = new JLabel();
-        greeting.setText("Too my darling Emily.");
+        greeting.setText("Sup");
         add(greeting);
+        this.setBackground(Color.MAGENTA);
+
     }
 }

@@ -9,9 +9,10 @@ public class HomeFrame extends JFrame {
     public HomeFrame(){
         currPanel = new GreetingPanel();
         setLayout(new FlowLayout());
-        setBackground(Color.MAGENTA);
+        getContentPane().setBackground(Color.red);
         currPanel.setAlignmentX(Component.CENTER_ALIGNMENT);
         currPanel.setSize(500,500);
+        currPanel.setBackground(Color.MAGENTA);
         add(currPanel);
     }
 
@@ -22,11 +23,11 @@ public class HomeFrame extends JFrame {
         catch(InterruptedException e){
             System.out.println("Broken");
         }
-        Container contain = getContentPane();
-        contain.removeAll();
-        currPanel = new HomePanel();
-        contain.add(currPanel);
-        contain.validate();
-        contain.repaint();
+//        Container contain = getContentPane();
+//        contain.removeAll();
+//        currPanel = new HomePanel();
+//        contain.add(currPanel);
+//        contain.validate();
+//        contain.repaint();
     }
 }

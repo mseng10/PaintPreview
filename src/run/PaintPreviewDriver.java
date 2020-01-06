@@ -3,6 +3,7 @@ package run;
 import gui.HomeFrame;
 
 import javax.swing.*;
+import java.awt.*;
 
 public class PaintPreviewDriver {
 
@@ -11,6 +12,7 @@ public class PaintPreviewDriver {
         base.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         base.setSize(1000, 1000);
         base.setVisible(true);
-        base.transitionToHome();
+        base.setBackground(Color.red);
+        //base.transitionToHome();
     }
 }
